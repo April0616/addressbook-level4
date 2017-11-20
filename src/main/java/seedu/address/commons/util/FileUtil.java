@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 public class FileUtil {
     //@@author April0616
-    public static final String REGEX_VALID_IMAGE = "([^\\s]+(\\.(?i)(jpg|jpeg|png|gif|bmp))$)";
+    public static final String REGEX_VALID_IMAGE = "((([\\s]?)*+[^\\s]+([\\s]?)*)+(\\.(?i)(jpg|jpeg|png|gif|bmp))$)";
     private static final String CHARSET = "UTF-8";
     /**
      * Checks whether the file is a valid image file.
